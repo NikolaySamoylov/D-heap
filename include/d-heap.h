@@ -24,7 +24,7 @@ public:
 		size = 0;
 	}
 	// конструктор копирования
-	D-heap(const D_heap& h) 
+	D_heap(const D_heap& h) 
 	{
 		data = h.data;
 		d = h.d;
